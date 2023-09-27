@@ -26,7 +26,7 @@ Multiple storage options were available. I selected AWS S3, inexpensive solution
 
 ## Environment
 
-![Untitled](https://github.com/pgrondein/cloud_big_data_model/assets/113172845/263f2f92-7e7a-4cd0-9d6a-8f8896d8cc4c)
+<img src="https://github.com/pgrondein/cloud_big_data_model/assets/113172845/263f2f92-7e7a-4cd0-9d6a-8f8896d8cc4c" height="400">
 
 I’m using Apache Spark, a unified, ultra-fast analytics engine for large-scale data processing. Like Hadoop before, it allows you to efficiently execute calculations that require rapid and iterative access to a large quantity of data, large-scale analyzes using Cluster machines.
 
@@ -42,7 +42,7 @@ In order to develop a Image Classification Model, we first need to be able to ex
 
 For this task, I used VGG16. VGG16 is a pre-trained convolutional neural network. It takes an image as input and automatically returns the features of this image, by automatic extraction and prioritization of said features. There are several possible use of VGG16 (Classifier, Standalone Feature Extractor…), and several transfer learning strategies (total fine-tuning, partial fine-tuning…).
 
-![Untitled (1)](https://github.com/pgrondein/cloud_big_data_model/assets/113172845/34885065-f7ad-46ba-bc96-a8a6efaf9017)
+<img src="https://github.com/pgrondein/cloud_big_data_model/assets/113172845/34885065-f7ad-46ba-bc96-a8a6efaf9017" height="400">
 
 My version of VGG16 is a entirely pre-trained Feature Extractor, where I only remove the last classifying layers without retraining the model. 
 
@@ -50,13 +50,13 @@ My version of VGG16 is a entirely pre-trained Feature Extractor, where I only re
 
 I ended up with more than 1000 variables, so a reduction was necessary.
 
-![Untitled (2)](https://github.com/pgrondein/cloud_big_data_model/assets/113172845/17432dce-5792-4ead-9e76-e095bc8e5401)
+<img src="https://github.com/pgrondein/cloud_big_data_model/assets/113172845/17432dce-5792-4ead-9e76-e095bc8e5401" height="400">
 
 The first two components make it possible to explain 45% of the variance. By also using components 3 and 4, we reach almost 60%.
 
 Finally, I obtained 4 features after PCA.
 
-![Untitled (3)](https://github.com/pgrondein/cloud_big_data_model/assets/113172845/9fbb07df-b617-416b-b2b3-3b102d2ca13f)
+<img src="https://github.com/pgrondein/cloud_big_data_model/assets/113172845/9fbb07df-b617-416b-b2b3-3b102d2ca13f" height="400">
 
 ## Big Data Architecture
 
