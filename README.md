@@ -1,17 +1,22 @@
-# OC_P8_Deployer_un_modele-_dans_le_cloud
-# P8 - Déployez un modèle dans le cloud
-## Big Data, AWS, Spark, logistic regression, CNN
+![cloud](https://github.com/pgrondein/cloud_big_data_model/assets/113172845/952afcbb-cb30-4041-9676-fc8ae073331b)
 
-Vous êtes Data Scientist dans une très jeune start-up de l'AgriTech, nommée  "Fruits!", qui cherche à proposer des solutions innovantes pour la récolte des fruits.
+# Deploy a model in the cloud
 
-La volonté de l’entreprise est de préserver la biodiversité des fruits en permettant des traitements spécifiques pour chaque espèce de fruits en développant des robots cueilleurs intelligents.
-Votre start-up souhaite dans un premier temps se faire connaître en mettant à disposition du grand public une application mobile qui permettrait aux utilisateurs de prendre en photo un fruit et d'obtenir des informations sur ce fruit.
+## Problem Definition
 
-Pour la start-up, cette application permettrait de sensibiliser le grand public à la biodiversité des fruits et de mettre en place une première version du moteur de classification des images de fruits.
+The goal here is to study the feasibility of developing a mobile app that would allow users to take a photo of a fruit and obtain information about that fruit. The development of the app comes with with the necessity to build a first version of a Big Data architecture.
 
-De plus, le développement de l’application mobile permettra de construire une première version de l'architecture Big Data nécessaire.
+The steps are :
 
-## Compétences
-- Paralléliser des opérations de calcul avec Pyspark
-- Utiliser les outils du cloud pour manipuler des données dans un environnement Big Data
-- Identifier les outils du cloud permettant de mettre en place un environnement Big Data
+- Feature extraction from images
+- Model development
+- Big Data architecture building
+
+## Data
+
+Data are available [here](https://www.kaggle.com/datasets/moltean/fruits).
+
+Data are divided by categories, 120 type of fruits and vegetables. With 492 images per folder, between 1 and 4 folder per category, and approximately 5 Ko per image, there’s more than 300 Mo of data to store.
+
+![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/589f2cdb-c9de-4013-a992-6fb063ff1ea6/444604d9-f046-4328-b359-346eae26443d/Untitled.png)
+![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/589f2cdb-c9de-4013-a992-6fb063ff1ea6/a968925d-1625-4bb1-b67e-a98861396152/Untitled.png)
