@@ -1,6 +1,6 @@
 ![banniere](https://github.com/pgrondein/cloud_big_data_model/assets/113172845/58166029-5261-4e4a-a459-91392e182e53)
 
-# Deploy a model in the cloud
+# Big Data Architecture in the Cloud
 
 ## Problem Definition
 
